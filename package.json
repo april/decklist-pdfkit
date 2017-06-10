@@ -7,12 +7,13 @@
   "author": "April King",
   "license": "MIT",
   "scripts": {
-    "build": "babel src -d dist/js"
+    "build": "babel src -d dist/js && webpack dist/js/decklist.js dist/js/index.js"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.2",
     "bootswatch": "^3.3.7",
-    "pdfkit": "^0.8.2"
+    "pdfkit": "^0.8.2",
+    "webpack": "^2.6.1"
   }
 }
