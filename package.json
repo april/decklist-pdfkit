@@ -1,0 +1,18 @@
+{
+  "name": "decklist",
+  "version": "2.0.0",
+  "description": "Site that powers decklist.org",
+  "main": "index.js",
+  "repository": "https://github.com/april/decklist",
+  "author": "April King",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d dist/js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "bootswatch": "^3.3.7",
+    "pdfkit": "^0.8.2"
+  }
+}
